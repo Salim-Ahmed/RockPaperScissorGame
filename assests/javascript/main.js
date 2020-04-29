@@ -73,6 +73,8 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
 
     humanDiv.innerHTML = "<img src='" + imageDataBase[humanImageChoice] + "' style='box-shadow: 0px 10px 50px rgb(0, 0, 0);'>";
 
+
+    // finalMessage["color"] and finalMessage["message"] are not working
     let fColor = finalMessage["color"];
     let fMessage = finalMessage["message"];
     // messageDiv.innerHTML = "<h2 style='   color: " + fColor + "; font-size: 60px; padding: 30px;   '>" + fMessage + "</h2>"
