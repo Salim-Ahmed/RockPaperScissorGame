@@ -1,0 +1,7 @@
+#rock, #paper, #scissor {
+    box-shadow: 0px 10px 50px rgba(28, 153, 226, 0.712);
+}
+
+#rock:hover, #paper:hover, #scissor:hover {
+    box-shadow: 0px 10px 50px rgb(0, 0, 0);
+}
